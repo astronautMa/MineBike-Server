@@ -1,8 +1,8 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "mb",
+  "name": "MineBike Mod",
+  "description": "A mod made to make minebike",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

@@ -1,210 +1,384 @@
-[17:13:11] [main/INFO] [GradleStart]: Running with arguments: [--tweakClass, net.minecraftforge.fml.common.launcher.FMLServerTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[17:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:13:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:13:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:13:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:13:13] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
-[17:13:13] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_212, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_212\jre
-[17:13:13] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[17:13:13] [main/ERROR] [FML]: Full: C:\Users\gabri\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[17:13:13] [main/ERROR] [FML]: Trimmed: c:/users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[17:13:13] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[17:13:13] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[17:13:13] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[17:13:13] [main/INFO] [FML]: Searching D:\forge-1.12.2-14.23.5.2838-mdk\.\mods for mods
-[17:13:13] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.12.2-2838-7.1.8.jar
-[17:13:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[17:13:13] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[17:13:13] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[17:13:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:13:13] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[17:13:13] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.7.11 Source=file:/D:/forge-1.12.2-14.23.5.2838-mdk/./mods/spongeforge-1.12.2-2838-7.1.8.jar Service=LaunchWrapper Env=SERVER
-[17:13:13] [main/WARN] [FML]: The coremod SpongeCoremod (org.spongepowered.mod.SpongeCoremod) is not signed!
-[17:13:13] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[17:13:13] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[DEFAULT]
-[17:13:13] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[PREINIT]
-[17:13:13] [main/INFO] [mixin]: Adding new token provider org.spongepowered.mod.SpongeCoremod$TokenProvider to MixinEnvironment[INIT]
-[17:13:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:13:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:13:14] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:14] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[17:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[17:13:15] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@40712ee9
-[17:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[17:13:15] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
-[17:13:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:13:15] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[17:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:13:15] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.common.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:15] [main/INFO] [mixin]: Remapping refMap mixins.forge.refmap.json using C:\Users\gabri\.gradle\caches\minecraft\de\oceanlabs\mcp\mcp_snapshot\20171003\1.12.2\srgs\srg-mcp.srg
-[17:13:16] [main/WARN] [mixin]: @Mixin target net.minecraft.block.state.BlockStateContainer$StateImplementation is public in mixins.common.api.json:mcp.block.state.StateImplementationMixin_API and should be specified in value
-[17:13:20] [main/ERROR] [mixin]: mixins.common.core.json:api.item.merchant.MerchantMixin: func_70932_a_ does not exist in target interface net.minecraft.entity.IMerchant
-org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: func_70932_a_ does not exist in target interface net.minecraft.entity.IMerchant
-	at org.spongepowered.asm.mixin.transformer.InterfaceInfo.renameMethod(InterfaceInfo.java:188) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareSoftImplements(MixinPreProcessorStandard.java:205) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepareMethod(MixinPreProcessorStandard.java:186) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorInterface.prepareMethod(MixinPreProcessorInterface.java:65) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinPreProcessorStandard.prepare(MixinPreProcessorStandard.java:173) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validateChanges(MixinInfo.java:404) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo$State.validate(MixinInfo.java:306) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinInfo.validate(MixinInfo.java:827) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinConfig.postInitialise(MixinConfig.java:528) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.prepareConfigs(MixinTransformer.java:675) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.select(MixinTransformer.java:572) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.checkSelect(MixinTransformer.java:548) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:451) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) [?:1.8.0_212]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [?:1.8.0_212]
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_212]
-	at java.lang.Class.forName(Class.java:348) [?:1.8.0_212]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131) [launchwrapper-1.12.jar:?]
+[13:00:16] [main/INFO] [GradleStart]: Extra: []
+[13:00:16] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/User/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[13:00:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:00:16] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:00:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:00:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[13:00:16] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[13:00:16] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_241, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_241\jre
+[13:00:16] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[13:00:16] [main/ERROR] [FML]: Full: C:\Users\User\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[13:00:16] [main/ERROR] [FML]: Trimmed: c:/users/user/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[13:00:16] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[13:00:16] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[13:00:18] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[13:00:18] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[13:00:18] [main/INFO] [FML]: Searching D:\School\MineBike-Server\forge-1.12.2-14.23.5.2838-mdk\.\mods for mods
+[13:00:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[13:00:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[13:00:18] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[13:00:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:00:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:00:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:00:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:00:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[13:00:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:24] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[13:00:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[13:00:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[13:00:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[13:00:25] [main/INFO] [GradleStart]: Remapping AccessTransformer rules...
+[13:00:25] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:00:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[13:00:25] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[13:00:26] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player278
+[13:00:31] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[13:00:31] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[13:00:33] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_241, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 150188224 bytes (143 MB) / 460849152 bytes (439 MB) up to 5717360640 bytes (5452 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 451.67' Renderer: 'GeForce GTX 1070/PCIe/SSE2'
+[13:00:33] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
+[13:00:33] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[13:00:33] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[13:00:33] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[13:00:34] [Client thread/INFO] [FML]: Searching D:\School\MineBike-Server\forge-1.12.2-14.23.5.2838-mdk\.\mods for mods
+[13:00:35] [Client thread/WARN] [FML]: Mod d3commands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.4.2
+[13:00:35] [Client thread/WARN] [FML]: Mod d3core is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.3.2.71
+[13:00:35] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 130924000 nanos
+[13:00:35] [Client thread/INFO] [FML]: Forge Mod Loader has identified 12 mods to load
+[13:00:36] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, minebikemod, soccer, customnpcs, biomesoplenty, fishingmadebetter, aquaculture, d3commands, d3core] at CLIENT
+[13:00:36] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, minebikemod, soccer, customnpcs, biomesoplenty, fishingmadebetter, aquaculture, d3commands, d3core] at SERVER
+[13:00:40] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:MineBike Mod, FMLFileResourcePack:Soccer Mod, FMLFileResourcePack:CustomNPCs, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:Fishing Made Better, FMLFileResourcePack:Aquaculture, FMLFileResourcePack:D3 Commands, FMLFileResourcePack:D³Core
+[13:00:40] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[13:00:40] [Client thread/INFO] [FML]: Found 1188 ObjectHolder annotations
+[13:00:40] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[13:00:40] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[13:00:40] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[13:00:40] [Forge Version Check/INFO] [forge.VersionCheck]: [d3core] Starting version check at http://doubledoordev.net/d3core.json
+[13:00:40] [Client thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonProxy:<init>:16]: Registering Dimension with id = 222
+[13:00:40] [Client thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.BiGXMain:preInit:46]: Preinitializing - Finish registering the Custom Dimensions
+[13:00:40] [Client thread/INFO] [minebikemod]: MineBike: PreInit finished
+[13:00:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[13:00:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2854
+[13:00:42] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[13:00:47] [Client thread/INFO] [d3commands]: Command itemcommands.key forced disabled because mod requirements are not met. RandomThings is not loaded. Full list: [RandomThings]
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileredstoneblock`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tileblockanvil`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilemailbox`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilewaypoint`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripted`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcscripteddoor`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcbuilder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpccopy`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilenpcborder`, expected `customnpcs`. This could be a intended override, but in most cases indicates a broken mod.
+[13:00:47] [Client thread/INFO] [FML]: Applying holder lookups
+[13:00:47] [Client thread/INFO] [FML]: Holder lookups applied
+[13:00:47] [Client thread/INFO] [FML]: Applying holder lookups
+[13:00:47] [Client thread/INFO] [FML]: Holder lookups applied
+[13:00:48] [Client thread/INFO] [FML]: Applying holder lookups
+[13:00:48] [Client thread/INFO] [FML]: Holder lookups applied
+[13:00:48] [Client thread/INFO] [FML]: Applying holder lookups
+[13:00:48] [Client thread/INFO] [FML]: Holder lookups applied
+[13:00:48] [Client thread/INFO] [FML]: Injecting itemstacks
+[13:00:48] [Client thread/INFO] [FML]: Itemstack injection complete
+[13:00:58] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[13:00:58] [Thread-8/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[13:00:58] [Thread-8/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:00:59] [Thread-8/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[13:00:59] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[13:01:15] [Client thread/INFO] [FML]: Max texture size: 16384
+[13:01:15] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 1024x512 textures-atlas
+[13:01:16] [Client thread/ERROR] [FML]: Exception loading model for variant soccer:soccer_ball#inventory for item "soccer:soccer_ball", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model soccer:item/soccer_ball with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStartServer.main(GradleStartServer.java:10) [start/:?]
-[17:13:21] [main/FATAL] [mixin]: Mixin apply failed mixins.common.core.json:server.MinecraftServerMixin -> net.minecraft.server.MinecraftServer: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException Overwrite target "func_71247_a" was not located in target class net/minecraft/server/MinecraftServer
-org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Overwrite target "func_71247_a" was not located in target class net/minecraft/server/MinecraftServer
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.mergeMethod(MixinApplicatorStandard.java:488) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:450) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:432) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:312) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:280) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) [spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) [launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) [?:1.8.0_212]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [?:1.8.0_212]
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_212]
-	at java.lang.Class.forName(Class.java:348) [?:1.8.0_212]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131) [launchwrapper-1.12.jar:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: soccer:models/item/soccer_ball.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:01:16] [Client thread/ERROR] [FML]: Exception loading model for variant soccer:soccer_ball#inventory for item "soccer:soccer_ball", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model soccer:soccer_ball#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStartServer.main(GradleStartServer.java:10) [start/:?]
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.common.core.json:server.MinecraftServerMixin] from phase [DEFAULT] in config [mixins.common.core.json] FAILED during APPLY
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinError(MixinTransformer.java:779)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinApplyError(MixinTransformer.java:732)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:513)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.Class.forName0(Native Method)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.Class.forName(Class.java:348)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
-[17:13:21] [main/INFO] [STDERR]: [org.spongepowered.asm.mixin.transformer.MixinTransformer:transformClassBytes:519]: 	at GradleStartServer.main(GradleStartServer.java:10)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Overwrite target "func_71247_a" was not located in target class net/minecraft/server/MinecraftServer
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.mergeMethod(MixinApplicatorStandard.java:488)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:450)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:432)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:312)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:280)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:634]: 	... 15 more
-[17:13:21] [main/ERROR] [LaunchWrapper]: Unable to launch
-java.lang.ClassNotFoundException: net.minecraft.server.MinecraftServer
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_212]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_212]
-	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_212]
-	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_212]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:131) [launchwrapper-1.12.jar:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:01:16] [Client thread/ERROR] [FML]: Exception loading model for variant minebikemod:game_fish_rod#inventory for item "minebikemod:game_fish_rod", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minebikemod:item/game_fish_rod with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
-	at GradleStartServer.main(GradleStartServer.java:10) [start/:?]
-Caused by: org.spongepowered.asm.mixin.transformer.throwables.MixinTransformerError: An unexpected critical error was encountered
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:521) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	... 12 more
-Caused by: org.spongepowered.asm.mixin.throwables.MixinApplyError: Mixin [mixins.common.core.json:server.MinecraftServerMixin] from phase [DEFAULT] in config [mixins.common.core.json] FAILED during APPLY
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinError(MixinTransformer.java:779) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.handleMixinApplyError(MixinTransformer.java:732) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:513) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	... 12 more
-Caused by: org.spongepowered.asm.mixin.transformer.throwables.InvalidMixinException: Overwrite target "func_71247_a" was not located in target class net/minecraft/server/MinecraftServer
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.mergeMethod(MixinApplicatorStandard.java:488) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyNormalMethod(MixinApplicatorStandard.java:450) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMethods(MixinApplicatorStandard.java:432) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.applyMixin(MixinApplicatorStandard.java:312) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinApplicatorStandard.apply(MixinApplicatorStandard.java:280) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.TargetClassContext.applyMixins(TargetClassContext.java:353) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.apply(MixinTransformer.java:724) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.applyMixins(MixinTransformer.java:703) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClassBytes(MixinTransformer.java:509) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at org.spongepowered.asm.mixin.transformer.Proxy.transform(Proxy.java:72) ~[spongeforge-1.12.2-2838-7.1.8.jar:1.12.2-2838-7.1.8]
-	at net.minecraft.launchwrapper.LaunchClassLoader.runTransformers(LaunchClassLoader.java:279) ~[launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:176) ~[launchwrapper-1.12.jar:?]
-	... 12 more
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.reflect.InvocationTargetException
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at GradleStartServer.main(GradleStartServer.java:10)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: net.minecraftforge.fml.relauncher.FMLSecurityManager$ExitTrappedException
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraftforge.fml.relauncher.FMLSecurityManager.checkPermission(FMLSecurityManager.java:49)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.SecurityManager.checkExit(SecurityManager.java:761)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.Runtime.exit(Runtime.java:107)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.System.exit(System.java:971)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:138)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[17:13:21] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	... 6 more
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: minebikemod:models/item/game_fish_rod.json
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:01:16] [Client thread/ERROR] [FML]: Exception loading model for variant minebikemod:game_fish_rod#inventory for item "minebikemod:game_fish_rod", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model minebikemod:game_fish_rod#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[13:01:18] [Client thread/INFO] [FML]: Applying holder lookups
+[13:01:18] [Client thread/INFO] [FML]: Holder lookups applied
+[13:01:18] [Client thread/INFO] [minebikemod]: Initalization Started
+[13:01:18] [Client thread/INFO] [minebikemod]: MineBike: Init finished
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: CustomNPC Permissions available:
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.blocks
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.edit.villager
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.bank
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.dialog
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.faction
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.linked
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.naturalspawn
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.playerdata
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.quest
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.recipe
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.global.transport
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.advanced
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.ai
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.clone
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.create
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.delete
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.display
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.freeze
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.gui
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.inventory
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.reset
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.npc.stats
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.scenes
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.soulstone.all
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.create
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.spawner.mob
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.mounter
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.nbtbook
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.pather
+[13:01:23] [Client thread/INFO] [noppes.npcs.CustomNpcs]: customnpcs.tool.scripter
+[13:01:23] [Client thread/INFO] [FML]: Injecting itemstacks
+[13:01:23] [Client thread/INFO] [FML]: Itemstack injection complete
+[13:01:23] [Client thread/INFO] [minebikemod]: MineBike: PostInit finished
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: =========== Loaded Fishes ============
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: Salmon
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: Pufferfish
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: Cod
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: Clownfish
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: ======================================
+[13:01:23] [Client thread/INFO] [fishingmadebetter]: Loaded 1 file(s).
+[13:01:23] [Client thread/INFO] [d3core]: [EndermanGriefing] Added 0 and removed 0 blocks to the Enderman grab list...
+[13:01:23] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 12 mods
+[13:01:23] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[13:01:23] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[13:01:24] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[13:01:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[13:01:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[13:01:36] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[13:01:36] [Server thread/INFO] [FML]: Applying holder lookups
+[13:01:36] [Server thread/INFO] [FML]: Holder lookups applied
+[13:01:36] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@246d2ff7)
+[13:01:37] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 700 advancements
+[13:01:38] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onWorldLoad:162]: Loading the overall world
+[13:01:38] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@246d2ff7)
+[13:01:38] [Server thread/INFO] [FML]: Loading dimension 222 (New World) (net.minecraft.server.integrated.IntegratedServer@246d2ff7)
+[13:01:38] [Server thread/INFO] [FML]: Loading dimension 223 (New World) (net.minecraft.server.integrated.IntegratedServer@246d2ff7)
+[13:01:38] [Server thread/INFO] [STDOUT]: [biomesoplenty.common.world.BiomeProviderBOPHell:<init>:32]: settings for hell world: 
+[13:01:38] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@246d2ff7)
+[13:01:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[13:01:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 7%
+[13:01:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 15%
+[13:01:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 25%
+[13:01:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%
+[13:01:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 50%
+[13:01:44] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 63%
+[13:01:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 75%
+[13:01:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 90%
+[13:01:47] [Server thread/INFO] [FML]: Unloading dimension 1
+[13:01:47] [Server thread/INFO] [FML]: Unloading dimension -1
+[13:01:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[13:01:48] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[13:01:48] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[13:01:48] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 12 mods : minecraft@1.12.2,soccer@1.0,aquaculture@1.6.8,FML@8.0.99.99,forge@14.23.5.2838,customnpcs@1.12,biomesoplenty@7.0.1.2441,mcp@9.42,fishingmadebetter@1.1.3,minebikemod@0.1.0,d3commands@1.4.2,d3core@1.3.2.71
+[13:01:48] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[13:01:48] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[13:01:48] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player278[local:E:36bdfc8a] logged in with entity id 613 at (-214.5, 64.0, 256.5)
+[13:01:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player278 joined the game
+[13:01:48] [Client thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onWorldLoad:162]: Loading the overall world
+[13:01:48] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:spawnNpcDatabase:47]: World Server get
+[13:01:49] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:spawnNpcDatabase:57]: Jaya is spwaned at BlockPos{x=-55, y=64, z=319}
+[13:01:49] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:spawnNpcDatabase:57]: Sam is spwaned at BlockPos{x=13, y=70, z=13}
+[13:01:49] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:spawnNpcDatabase:57]: Ada is spwaned at BlockPos{x=6, y=0, z=-3}
+[13:01:50] [Thread-7/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] CustomNpcs installed. For more info Click here
+[13:01:50] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2808ms behind, skipping 56 tick(s)
+[13:01:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[13:01:50] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onPlayerSave:184]: Player278 is trying to SaveToFile
+[13:01:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:01:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/soccerDim
+[13:01:51] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/fishingDim
+[13:02:31] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[13:02:31] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onPlayerSave:184]: Player278 is trying to SaveToFile
+[13:02:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:02:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/soccerDim
+[13:02:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/fishingDim
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[13:02:32] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onPlayerSave:184]: Player278 is trying to SaveToFile
+[13:02:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player278 lost connection: Disconnected
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player278 left the game
+[13:02:32] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onPlayerLogout:98]: Player278 has logged out
+[13:02:32] [Server thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onPlayerSave:184]: Player278 is trying to SaveToFile
+[13:02:32] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/soccerDim
+[13:02:32] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/fishingDim
+[13:02:33] [Server thread/INFO] [FML]: Unloading dimension 0
+[13:02:33] [Server thread/INFO] [FML]: Unloading dimension 222
+[13:02:33] [Server thread/INFO] [FML]: Unloading dimension 223
+[13:02:33] [Server thread/INFO] [FML]: Applying holder lookups
+[13:02:33] [Server thread/INFO] [FML]: Holder lookups applied
+[13:02:36] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to 34.67.77.95, 10086
+[13:02:36] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
+[13:02:36] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
+[13:02:37] [Client thread/INFO] [FML]: Applying holder lookups
+[13:02:37] [Client thread/INFO] [FML]: Holder lookups applied
+[13:02:37] [Netty Client IO #2/INFO] [FML]: [Netty Client IO #2] Client side modded connection established
+[13:02:37] [Client thread/INFO] [STDOUT]: [edu.ics.uci.minebike.minecraft.CommonEventHandler:onWorldLoad:162]: Loading the overall world
+[13:02:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Player278 joined the game
+[13:02:44] [Client thread/WARN] [net.minecraft.client.renderer.texture.TextureManager]: Failed to load texture: customnpcs:textures/entity/humanmale/tradesteve.png
+java.io.FileNotFoundException: customnpcs:textures/entity/humanmale/tradesteve.png
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:34) ~[SimpleTexture.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.loadTexture(TextureManager.java:69) [TextureManager.class:?]
+	at net.minecraft.client.renderer.texture.TextureManager.bindTexture(TextureManager.java:44) [TextureManager.class:?]
+	at net.minecraft.client.renderer.entity.Render.bindTexture(Render.java:130) [Render.class:?]
+	at net.minecraft.client.renderer.entity.Render.bindEntityTexture(Render.java:123) [Render.class:?]
+	at net.minecraft.client.renderer.entity.RenderLivingBase.renderModel(RenderLivingBase.java:251) [RenderLivingBase.class:?]
+	at noppes.npcs.client.renderer.RenderNPCInterface.renderModel(RenderNPCInterface.java:172) [RenderNPCInterface.class:?]
+	at noppes.npcs.client.renderer.RenderCustomNpc.renderModel(RenderCustomNpc.java:176) [RenderCustomNpc.class:?]
+	at noppes.npcs.client.renderer.RenderCustomNpc.renderModel(RenderCustomNpc.java:39) [RenderCustomNpc.class:?]
+	at net.minecraft.client.renderer.entity.RenderLivingBase.doRender(RenderLivingBase.java:183) [RenderLivingBase.class:?]
+	at net.minecraft.client.renderer.entity.RenderLiving.doRender(RenderLiving.java:51) [RenderLiving.class:?]
+	at noppes.npcs.client.renderer.RenderNPCInterface.doRender(RenderNPCInterface.java:167) [RenderNPCInterface.class:?]
+	at noppes.npcs.client.renderer.RenderCustomNpc.doRender(RenderCustomNpc.java:90) [RenderCustomNpc.class:?]
+	at noppes.npcs.client.renderer.RenderCustomNpc.doRender(RenderCustomNpc.java:39) [RenderCustomNpc.class:?]
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntity(RenderManager.java:390) [RenderManager.class:?]
+	at net.minecraft.client.renderer.entity.RenderManager.renderEntityStatic(RenderManager.java:374) [RenderManager.class:?]
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:655) [RenderGlobal.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorldPass(EntityRenderer.java:1400) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1312) [EntityRenderer.class:?]
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1115) [EntityRenderer.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1209) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:442) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+[13:02:54] [Client thread/INFO] [FML]: Applying holder lookups
+[13:02:54] [Client thread/INFO] [FML]: Holder lookups applied
+[13:02:57] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[13:02:57] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[13:02:57] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com

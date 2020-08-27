@@ -3,9 +3,12 @@ package edu.ics.uci.minebike.minecraft;
 //import biomesoplenty.common.biome.overworld.BiomeGenWhiteBeach;
 import edu.ics.uci.minebike.minecraft.worlds.WorldProviderFishing;
 import edu.ics.uci.minebike.minecraft.worlds.WorldProviderSoccerQuest;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.world.DimensionType;
 import net.minecraft.world.World;
+import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.DimensionManager;
 import net.minecraftforge.fml.common.network.IGuiHandler;
 
@@ -24,6 +27,10 @@ public class CommonProxy implements IGuiHandler {
         BiGXMain.ChannelPlayer.register(new PacketHandlerServer());
     }
 
+    public void registerItemRenderer(Item item, int meta, String id)
+    {
+        ModelLoader.setCustomModelResourceLocation(item,meta,new ModelResourceLocation(item.getRegistryName(),id));
+    }
     @Nullable
     @Override
     public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
